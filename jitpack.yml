@@ -4,5 +4,5 @@ jdk:
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
-  - FILE="-Dfile=myapplication-release.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.mika-no-olala -DartifactId=tessst -Dversion=1.0.9 -Dpackaging=aar -DgeneratePom=true
+  - FILE="-Dfile=webcallsdk-release.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.smpb05 -DartifactId=WebCallSDKAndroid -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true
